@@ -7,8 +7,6 @@
        
     </classes>
   </test> <!-- Test -->
-  
-  
    <test thread-count="2"  name="TestRunner2">
     <classes>
       <class name="TESTNG.CreateCampaignsTest"/>
