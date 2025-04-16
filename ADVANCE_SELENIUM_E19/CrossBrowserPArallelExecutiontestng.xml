@@ -7,22 +7,16 @@
 			<parameter name="username" value="admin"></parameter>
 			<parameter name="password" value="admin"></parameter>
 			<classes>
-
 				<class name="TESTNG.CreateCampaignsTest" />
-
 			</classes>
-	</test> <!-- Test -->
-  
-  
-   <test thread-count="1" parallel="tests" name="Test2">
+     </test> <!-- Test -->
+     <test thread-count="1" parallel="tests" name="Test2">
 				<parameter name="Browser" value="Chrome"></parameter>
 				<parameter name="URL" value="http://localhost:8888/" />
 				<parameter name="username" value="admin"></parameter>
 				<parameter name="password" value="admin"></parameter>
 				<classes>
 					<class name="TESTNG.CreateProductTest" />
-
 				</classes>
   </test> <!-- Test -->
-  
 </suite> <!-- Suite -->

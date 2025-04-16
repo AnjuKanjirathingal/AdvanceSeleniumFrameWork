@@ -6,7 +6,7 @@ public class TryingGitHUbConflicting {
 	{
 		// TODO Auto-generated method stub
 		System.out.println("eng1 push");
-
+		System.out.println("eng2 push");
 	}
 
 }
